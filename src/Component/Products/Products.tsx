@@ -116,7 +116,6 @@ const Products = () => {
             const response = await axios.get(`${process.env.NEXT_PUBLIC_BACKEND_API_URL}/product/compare/${product1.id}/${product2.id}`);
             setCompareResult(response.data);
             setCompareModalOpen(true);
-            console.log('Comparison result:', response.data);
         } else {
             console.error('Exactly two products must be selected for comparison.');
         }

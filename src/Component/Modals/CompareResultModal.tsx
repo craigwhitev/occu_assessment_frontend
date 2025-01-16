@@ -19,7 +19,7 @@ const CompareResultModal: React.FC<CompareResultModalProps> = ({ isOpen, onClose
         <Modal isOpen={isOpen} onClose={onClose}>  
             <div className="flex flex-col">  
                 <h2 className="text-xl font-bold mb-4">Comparison Results</h2>  
-                <table className="table-auto w-full border-collapse border border-gray-200">
+                <table className="table-auto w-full border-collapse border border-gray-300">
                     <thead>
                         <tr>
                             <th className="border border-gray-300 px-4 py-2">Different Field</th>

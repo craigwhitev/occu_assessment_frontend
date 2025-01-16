@@ -3,9 +3,11 @@ import TagsBoard from "@/Component/Tags/TagsBoard";
 
 const page = () => {
   return (
-    <div className="container mx-auto h-screen">
+    <div>
       <Navbar />
-      <TagsBoard />
+      <div className="container mx-auto h-screen">
+        <TagsBoard />
+      </div>
     </div>
   );
 }

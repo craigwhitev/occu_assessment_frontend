@@ -4,11 +4,12 @@ import Products from "@/Component/Products/Products";
 
 const page = () => {
   return (
-
-    <div className="container mx-auto h-screen">
+    <>
       <Navbar />
-      <Products />
-    </div>
+      <div className="container mx-auto h-screen">
+        <Products />
+      </div>
+    </>
   );
 }
 
